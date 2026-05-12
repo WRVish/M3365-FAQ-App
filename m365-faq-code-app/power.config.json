@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "appId": "6c5a7518-4d62-493e-8ff6-d4c75d3488fe",
+  "appDisplayName": "M365 FAQ Code App",
+  "region": "prod",
+  "environmentId": "21d09661-3b00-e734-a311-2aeaa306a481",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "219d4846-2589-45b6-a72b-30ca2ad126aa": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_sharepointonline",
+      "displayName": "SharePoint",
+      "dataSources": [
+        "m365_faqs"
+      ],
+      "dataSets": {
+        "https://vishtechtalk.sharepoint.com/sites/DemoSite": {
+          "dataSources": {
+            "m365_faqs": {
+              "tableName": "42f629c9-09bc-4de5-a7f6-d3b92f5f2265"
+            }
+          }
+        }
+      }
+    }
+  },
+  "databaseReferences": {}
+}

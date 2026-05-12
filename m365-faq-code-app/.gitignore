@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Power Apps specific
+.power/workspaces
+faq-app.zip
+
+# Markdown docs (exclude all except README.md)
+*.md
+!README.md
+
+# YouTube production files (local only — not for GitHub)
+Youtube_inputs/
+
+# Environment files
+.env
+.env.local.user
